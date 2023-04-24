@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -144,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["srcery-vim"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/srcery-vim",
+    url = "https://github.com/srcery-colors/srcery-vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -154,10 +164,20 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
