@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
 	use('morhetz/gruvbox')
 	use('srcery-colors/srcery-vim')
 
-	vim.cmd("colorscheme gruvbox")
+	vim.cmd("colorscheme rose-pine")
 
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -32,6 +32,8 @@ return require('packer').startup(function(use)
 	use('jiangmiao/auto-pairs')
 	use('tpope/vim-fugitive')
 	use('tpope/vim-surround')
+	use("ThePrimeagen/vim-be-good")
+	use("mfussenegger/nvim-dap")
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
