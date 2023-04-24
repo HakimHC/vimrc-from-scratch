@@ -18,9 +18,6 @@ return require('packer').startup(function(use)
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use ("savq/melange-nvim")
 	use('morhetz/gruvbox')
-	use('srcery-colors/srcery-vim')
-
-	vim.cmd("colorscheme rose-pine")
 
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -34,6 +31,11 @@ return require('packer').startup(function(use)
 	use('tpope/vim-surround')
 	use("ThePrimeagen/vim-be-good")
 	use("mfussenegger/nvim-dap")
+	use("haishanh/night-owl.vim")
+	use('srcery-colors/srcery-vim')
+	use("Rigellute/rigel")
+	use("pineapplegiant/spaceduck")
+	vim.cmd("colorscheme spaceduck")
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',

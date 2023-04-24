@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
   },
+  ["night-owl.vim"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/night-owl.vim",
+    url = "https://github.com/haishanh/night-owl.vim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -149,10 +154,20 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  rigel = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/rigel",
+    url = "https://github.com/Rigellute/rigel"
+  },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
+  },
+  spaceduck = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/spaceduck",
+    url = "https://github.com/pineapplegiant/spaceduck"
   },
   ["srcery-vim"] = {
     loaded = true,

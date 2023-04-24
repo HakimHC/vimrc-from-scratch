@@ -1,5 +1,5 @@
 function ColorScheeeemin(color)
-	color = color or "rose-pine"
+	color = color or "spaceduck"
 	-- color = color or "gruvbox"
 	vim.cmd.colorscheme(color)
 
