@@ -8,4 +8,10 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set("n", "<leader>y", "\"+y")
 
+vim.keymap.set("n", "<leader>n", vim.cmd.enew)
+
+vim.keymap.set("n", "<leader>br", vim.cmd.bnext)
+
+vim.keymap.set("n", "<leader>bw", vim.cmd.bprevious)
+
 vim.keymap.set("v", "<leader>l", "c\"\"<ESC>hpi")

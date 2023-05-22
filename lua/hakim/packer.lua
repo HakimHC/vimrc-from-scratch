@@ -35,7 +35,9 @@ return require('packer').startup(function(use)
 	use('srcery-colors/srcery-vim')
 	use("Rigellute/rigel")
 	use("pineapplegiant/spaceduck")
-	vim.cmd("colorscheme spaceduck")
+	vim.cmd("colorscheme rose-pine")
+
+	use("42Paris/42header")
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
