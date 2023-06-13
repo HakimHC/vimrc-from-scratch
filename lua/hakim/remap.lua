@@ -15,3 +15,5 @@ vim.keymap.set("n", "<leader>br", vim.cmd.bnext)
 vim.keymap.set("n", "<leader>bw", vim.cmd.bprevious)
 
 vim.keymap.set("v", "<leader>l", "c\"\"<ESC>hpi")
+
+vim.cmd("set clipboard=unnamed")

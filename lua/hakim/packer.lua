@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
 	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use ("savq/melange-nvim")
 	use('morhetz/gruvbox')
+	use ("rebelot/kanagawa.nvim")
 
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -35,7 +36,8 @@ return require('packer').startup(function(use)
 	use('srcery-colors/srcery-vim')
 	use("Rigellute/rigel")
 	use("pineapplegiant/spaceduck")
-	vim.cmd("colorscheme rose-pine")
+	use("Alexis12119/nightly.nvim")
+	vim.cmd("colorscheme kanagawa")
 
 	use("42Paris/42header")
 

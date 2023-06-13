@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hakim/.local/share/nvim/site/pack/packer/start/night-owl.vim",
     url = "https://github.com/haishanh/night-owl.vim"
+  },
+  ["nightly.nvim"] = {
+    loaded = true,
+    path = "/home/hakim/.local/share/nvim/site/pack/packer/start/nightly.nvim",
+    url = "https://github.com/Alexis12119/nightly.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
