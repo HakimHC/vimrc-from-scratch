@@ -37,7 +37,9 @@ return require('packer').startup(function(use)
 	use("Rigellute/rigel")
 	use("pineapplegiant/spaceduck")
 	use("Alexis12119/nightly.nvim")
-	vim.cmd("colorscheme kanagawa")
+	use("projekt0n/github-nvim-theme")
+	use("sainnhe/sonokai")
+	vim.cmd("colorscheme github_dark")
 
 	use("42Paris/42header")
 
